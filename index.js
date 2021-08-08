@@ -29,7 +29,7 @@ router.post('/number', function(req,res){
 
 router.post('/sum', function(req,res){
 	var sum = req.body.num1 + req.body.num2;
-	res.json({message:"The number is" + sum});
+	res.json({message:"The number is " + sum});
 })
 
 //var express = require('express'); 
